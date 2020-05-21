@@ -23,6 +23,7 @@ public class BookCategoryController implements BaseController<BookCategoryReques
 
     private final BookCategoryService bookCategoryService;
     private final ProjectionFactory projectionFactory;
+    
 
     @CrossOrigin
     @Override
