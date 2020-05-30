@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/TestDB"
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    username: "root"
+    password: "Yash9999.@"
+
+  jpa:
+    properties:
+      hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+      hibernate.ddl-auto: "update"
+    show-sql: true
+
+server:
+  port: 8090
